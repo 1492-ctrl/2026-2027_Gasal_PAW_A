@@ -12,9 +12,16 @@ echo "fruits = (";
 for ($i = 0; $i < count($fruits); $i++) {
     echo $fruits[$i] . ", ";
 }
+
+
 echo ") <br>";
 echo "Nilai dengan index tertinggi : " . $fruits[$i-1];
-
+echo "<br>";
+echo "<br>";
+echo "<br>";
+foreach ($fruits as $j) {
+    echo $j . " ";
+}
 echo "<br>";
 echo "<br>";
 echo "<br>";
